@@ -9,7 +9,6 @@
     <result column="class_id" property="classId" jdbcType="INTEGER" />
     <result column="score" property="score" jdbcType="SMALLINT" />
     <result column="discuss" property="discuss" jdbcType="VARCHAR" />
-    <result column="type" property="type" jdbcType="SMALLINT" />
     <result column="create" property="create" jdbcType="TIMESTAMP" />
   </resultMap>
 </mapper>

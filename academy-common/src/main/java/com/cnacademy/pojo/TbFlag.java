@@ -5,6 +5,9 @@ import javax.persistence.*;
 
 @Table(name = "tb_flag")
 public class TbFlag {
+    /**
+     * 从100开始自增，为了slideshow 表的id类型统一
+     */
     @Id
     private Integer id;
 
@@ -19,7 +22,7 @@ public class TbFlag {
     private Short status;
 
     /**
-     * 序号，大有限极高
+     * 序号，大优先极高
      */
     private Short sequence;
 
@@ -28,14 +31,18 @@ public class TbFlag {
     private Date updated;
 
     /**
-     * @return id
+     * 获取从100开始自增，为了slideshow 表的id类型统一
+     *
+     * @return id - 从100开始自增，为了slideshow 表的id类型统一
      */
     public Integer getId() {
         return id;
     }
 
     /**
-     * @param id
+     * 设置从100开始自增，为了slideshow 表的id类型统一
+     *
+     * @param id 从100开始自增，为了slideshow 表的id类型统一
      */
     public void setId(Integer id) {
         this.id = id;
@@ -78,18 +85,18 @@ public class TbFlag {
     }
 
     /**
-     * 获取序号，大有限极高
+     * 获取序号，大优先极高
      *
-     * @return sequence - 序号，大有限极高
+     * @return sequence - 序号，大优先极高
      */
     public Short getSequence() {
         return sequence;
     }
 
     /**
-     * 设置序号，大有限极高
+     * 设置序号，大优先极高
      *
-     * @param sequence 序号，大有限极高
+     * @param sequence 序号，大优先极高
      */
     public void setSequence(Short sequence) {
         this.sequence = sequence;

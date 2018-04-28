@@ -10,6 +10,11 @@ public class TbClassCollection {
 
     private String title;
 
+    /**
+     * 0为普通，1为新手，2为大咖专场
+     */
+    private String grade;
+
     private Boolean deleted;
 
     @Column(name = "flag_id")
@@ -47,6 +52,24 @@ public class TbClassCollection {
      */
     public void setTitle(String title) {
         this.title = title;
+    }
+
+    /**
+     * 获取0为普通，1为新手，2为大咖专场
+     *
+     * @return grade - 0为普通，1为新手，2为大咖专场
+     */
+    public String getGrade() {
+        return grade;
+    }
+
+    /**
+     * 设置0为普通，1为新手，2为大咖专场
+     *
+     * @param grade 0为普通，1为新手，2为大咖专场
+     */
+    public void setGrade(String grade) {
+        this.grade = grade;
     }
 
     /**

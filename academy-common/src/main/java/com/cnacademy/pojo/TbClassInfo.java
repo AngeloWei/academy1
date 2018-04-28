@@ -24,11 +24,6 @@ public class TbClassInfo {
     private Boolean free;
 
     /**
-     * 1:一周热门 2.大咖专场 3,新手入门
-     */
-    private Short type;
-
-    /**
      * 课程价格
      */
     private Integer price;
@@ -172,24 +167,6 @@ public class TbClassInfo {
      */
     public void setFree(Boolean free) {
         this.free = free;
-    }
-
-    /**
-     * 获取1:一周热门 2.大咖专场 3,新手入门
-     *
-     * @return type - 1:一周热门 2.大咖专场 3,新手入门
-     */
-    public Short getType() {
-        return type;
-    }
-
-    /**
-     * 设置1:一周热门 2.大咖专场 3,新手入门
-     *
-     * @param type 1:一周热门 2.大咖专场 3,新手入门
-     */
-    public void setType(Short type) {
-        this.type = type;
     }
 
     /**

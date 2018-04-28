@@ -19,18 +19,6 @@ public class TbUserInfo {
 
     private String pwd;
 
-    /**
-     * 第三方token1
-     */
-    @Column(name = "third_token1")
-    private String thirdToken1;
-
-    /**
-     * 第三方登录token2
-     */
-    @Column(name = "third_token2")
-    private String thirdToken2;
-
     private String nick;
 
     private String channel;
@@ -95,42 +83,6 @@ public class TbUserInfo {
      */
     public void setPwd(String pwd) {
         this.pwd = pwd;
-    }
-
-    /**
-     * 获取第三方token1
-     *
-     * @return third_token1 - 第三方token1
-     */
-    public String getThirdToken1() {
-        return thirdToken1;
-    }
-
-    /**
-     * 设置第三方token1
-     *
-     * @param thirdToken1 第三方token1
-     */
-    public void setThirdToken1(String thirdToken1) {
-        this.thirdToken1 = thirdToken1;
-    }
-
-    /**
-     * 获取第三方登录token2
-     *
-     * @return third_token2 - 第三方登录token2
-     */
-    public String getThirdToken2() {
-        return thirdToken2;
-    }
-
-    /**
-     * 设置第三方登录token2
-     *
-     * @param thirdToken2 第三方登录token2
-     */
-    public void setThirdToken2(String thirdToken2) {
-        this.thirdToken2 = thirdToken2;
     }
 
     /**

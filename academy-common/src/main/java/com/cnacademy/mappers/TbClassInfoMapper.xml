@@ -9,7 +9,6 @@
     <result column="status" property="status" jdbcType="SMALLINT" />
     <result column="title" property="title" jdbcType="VARCHAR" />
     <result column="free" property="free" jdbcType="BIT" />
-    <result column="type" property="type" jdbcType="SMALLINT" />
     <result column="price" property="price" jdbcType="INTEGER" />
     <result column="descript" property="descript" jdbcType="VARCHAR" />
     <result column="apply_num" property="applyNum" jdbcType="INTEGER" />

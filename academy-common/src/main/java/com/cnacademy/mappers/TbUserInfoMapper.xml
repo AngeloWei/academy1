@@ -8,8 +8,6 @@
     <id column="user_id" property="userId" jdbcType="VARCHAR" />
     <result column="account" property="account" jdbcType="VARCHAR" />
     <result column="pwd" property="pwd" jdbcType="VARCHAR" />
-    <result column="third_token1" property="thirdToken1" jdbcType="VARCHAR" />
-    <result column="third_token2" property="thirdToken2" jdbcType="VARCHAR" />
     <result column="nick" property="nick" jdbcType="VARCHAR" />
     <result column="channel" property="channel" jdbcType="VARCHAR" />
     <result column="phone" property="phone" jdbcType="VARCHAR" />

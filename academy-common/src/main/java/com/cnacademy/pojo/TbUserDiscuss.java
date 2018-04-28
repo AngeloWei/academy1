@@ -21,11 +21,6 @@ public class TbUserDiscuss {
      */
     private String discuss;
 
-    /**
-     * 0:视评 1：建议
-     */
-    private Short type;
-
     private Date create;
 
     /**
@@ -90,24 +85,6 @@ public class TbUserDiscuss {
      */
     public void setDiscuss(String discuss) {
         this.discuss = discuss;
-    }
-
-    /**
-     * 获取0:视评 1：建议
-     *
-     * @return type - 0:视评 1：建议
-     */
-    public Short getType() {
-        return type;
-    }
-
-    /**
-     * 设置0:视评 1：建议
-     *
-     * @param type 0:视评 1：建议
-     */
-    public void setType(Short type) {
-        this.type = type;
     }
 
     /**

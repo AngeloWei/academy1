@@ -15,4 +15,11 @@
     </modules>
     <artifactId>academy-mobile</artifactId>
 
+    <dependencies>
+        <dependency>
+            <groupId>com.cainiao</groupId>
+            <artifactId>academy-mobile-service</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
 </project>

@@ -6,7 +6,10 @@ import javax.persistence.*;
 @Table(name = "tb_order")
 public class TbOrder {
     @Id
-    private String id;
+    @Column(name = "order_id")
+    private String orderId;
+
+    private Integer id;
 
     @Column(name = "user_id")
     private String userId;
@@ -59,16 +62,30 @@ public class TbOrder {
     private Short payType;
 
     /**
+     * @return order_id
+     */
+    public String getOrderId() {
+        return orderId;
+    }
+
+    /**
+     * @param orderId
+     */
+    public void setOrderId(String orderId) {
+        this.orderId = orderId;
+    }
+
+    /**
      * @return id
      */
-    public String getId() {
+    public Integer getId() {
         return id;
     }
 
     /**
      * @param id
      */
-    public void setId(String id) {
+    public void setId(Integer id) {
         this.id = id;
     }
 
